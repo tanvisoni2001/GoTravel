@@ -1,0 +1,8 @@
+<h3>Your hotel Booking details  </h3>
+<% @hotel.collaborates.each do |collaborate| %>
+  <p>Hotel Id:<%= collaborate.hotel_id %></p>
+  <p>Tour Id:<%= collaborate.tour_id %></p>
+  <p>Room_type: <%= collaborate.room_type%></p>
+  <p>No_of_rooms: <%= collaborate.no_of_rooms%></p>
+<% end %>
+

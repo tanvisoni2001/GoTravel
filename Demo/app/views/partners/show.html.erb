@@ -1,0 +1,19 @@
+<div class="container text-center">
+  <div class="form-detail mt-5">
+    <div class="form-body">
+      <h3 class="form-title">Details of <%=current_user.email%></h3>
+
+      <div class="form-content">
+        <p><strong>Name:</strong> <%= @partner.name %></p>
+        <p><strong>Email:</strong> <%= @partner.email %></p>
+        <p><strong>Address:</strong> <%= @partner.address %></p>
+        <p><strong>Phone Number:</strong> <%= @partner.phone_no %></p>
+      </div>
+
+      <div class="btn-group">
+        <%= link_to 'Register your Hotel', new_partner_hotel_path(@partner), class: 'btn btn-danger nav-link' %>
+      </div>
+    </div>
+  </div>
+</div>
+
