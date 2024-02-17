@@ -26,7 +26,7 @@ GoTravel is a web application built with Ruby on Rails that helps travel organiz
 
 
 ### Getting Started
-1. Clone the repository: https://github.com/tanvisoni181/Demo
+1. Clone the repository: https://github.com/tanvisoni2001/Demo
     cd GoTravel
 
 2. Install dependencies: bundle install 
@@ -52,4 +52,4 @@ GoTravel is a web application built with Ruby on Rails that helps travel organiz
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact us at tanvi.soni@preciousinfosystem.com.
+If you have any questions or suggestions, feel free to open an issue or contact us at tanvisony181@gmail.com
